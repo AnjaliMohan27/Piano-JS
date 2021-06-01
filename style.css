@@ -1,0 +1,50 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body{
+    height: 100%;
+    background: url("5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+.piano-container{
+    display: flex;
+    margin: 180px 400px;
+   
+}
+
+.white{
+    width: 80px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.white:active{
+    background-color: #ccc;
+}
+
+.black{
+    width: 30px;
+    height: 100px;
+    margin-left: -18px;
+    margin-right: -10px;
+    z-index: 3;
+    background-color: black;
+}
+
+.black:active{
+    background-color: rgb(80, 75, 75);
+}
